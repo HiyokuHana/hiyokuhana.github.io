@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  align-items: center;
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: flex;
+  align-items: center;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  display: flex;
+  align-items: center;
+  background-color: #FFDFE9;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  display: flex;
+  align-items: center;
+  background-color: #FFC5D3;
+  color: black;
+}
+
+#home  {
+float: left;    
+ margin: 0 15px 0 0;
+}
+
+#guides  {
+float: left;    
+ margin: 0 15px 0 0;
+}
+
+#dlcen  {
+float: left;    
+ margin: 0 15px 0 0;
+}
